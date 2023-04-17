@@ -3,8 +3,16 @@ PyMongoAgg
 
 Minimal POC of a Python-MongoDB Aggregation transpiler.
 
-Now you can write your aggregation pipelines using native Python syntax,
+Have you ever, like me, had to write a MongoDB aggregation expression, and found that you
+would rather put your head underneath a car tire and ask the driver to do a burnout?
+Well, this is the solution for you. Now you can write your aggregation pipelines using native Python syntax,
 and PyMongoAgg will handle conversion by parsing the AST of your function.
+
+This was originally a Skunkworks project (MongoDB's internal hackathon), however I was let go summarily only
+2 weeks after my project got to the finals. Luckily, the project has a very permissive license, and I will be continuing
+development work by myself.
+
+The version that MongoDB turned into an official repository is not maintained: https://github.com/mongodb-labs/PyMongoAgg
 
 Example:
 ```python
