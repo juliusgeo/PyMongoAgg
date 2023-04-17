@@ -1,4 +1,4 @@
-# Copyright (c) 2023 MongoDB
+# Copyright (c) 2023 Julius Park
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
